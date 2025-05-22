@@ -1,2 +1,4 @@
 "create me an online portfolio for an ai engineer"
 
+"from pydantic_settings import BaseSettings ModuleNotFoundError: No module named 'pydantic_settings' Traceback (most recent call last):   File \"/home/runner/workspace/main.py\", line 9, in <module>     from app.components.header import create_header   File \"/home/runner/workspace/app/__init__.py\", line 11, in <module>     from .core.config import settings   File \"/home/runner/workspace/app/core/config.py\", line 1, in <module>     from pydantic_settings import BaseSettings ModuleNotFoundError: No module named 'pydantic_settings'. these errors are coming debug them"
+
