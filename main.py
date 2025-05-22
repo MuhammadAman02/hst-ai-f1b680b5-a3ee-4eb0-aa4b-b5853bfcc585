@@ -40,6 +40,6 @@ def portfolio_page():
         create_projects_section()
         create_contact_section()
 
-if __name__ == '__main__':
-    port = int(os.getenv('PORT', 8080))
-    ui.run(port=port, title="AI Engineer Portfolio")
+# Remove the if __name__ == '__main__': guard
+port = int(os.getenv('PORT', 8080))
+ui.run(port=port, title="AI Engineer Portfolio")
